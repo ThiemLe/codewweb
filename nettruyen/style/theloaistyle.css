@@ -1,0 +1,140 @@
+﻿.container-dc li a {
+    color: #2d7ae3;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container-dc li {
+    list-style-type: none;
+    float: left;
+}
+
+.container-dc ul {
+    margin: 20px 0px;
+    padding-top: 20px;
+    padding: 20px 0px;
+    padding-left: 100px;
+}
+
+.container-li:after {
+    content: ">>";
+    color: #2d7ae3;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.content-img li {
+    list-style-type: none;
+    float: left;
+    margin-left: 10px;
+}
+
+.items img {
+    width: 155px;
+    height: 200px;
+}
+
+.items li p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 150px;
+}
+
+.items li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.tdecu-ul2 {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.tdecu-ul2 .ig {
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 1s;
+}
+
+.tdecu-ul2 .ig:hover,
+.tdecu-ul2 .ig:active {
+            transform: scale(1.1);
+}
+
+.t-item img {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.t-item img:hover,
+.t-item img:active {
+        transform: scale(1.2);
+}
+
+.slider3 {
+    position: relative;
+}
+
+.module h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.module .description {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.module .description .info {
+        padding: 10px;
+        border: 1px solid #ad9684;
+        opacity: 0.6;
+}
+
+.content-right {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+}
+
+.cot {
+    border: 1px solid #ad9684;
+    color: #333;
+    padding: 10px;
+    clear: right;
+    margin-bottom: 15px;
+}
+
+.content-right h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #2980b9;
+    padding: 10px;
+}
+
+.content-right li {
+    list-style-type: none;
+    border-top: 1px solid #ad9684;
+    padding: 20px;
+}
+
+.content-right li a {
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+}
+
+.content-right ul {
+    padding: 0px;
+    margin: -10px;
+}

@@ -1,0 +1,283 @@
+﻿.tdecu {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #2980b9;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.tdecu2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #2980b9;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.slider {
+    position: relative;
+}
+
+#next {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    text-decoration: none;
+}
+
+#prev {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    text-decoration: none;
+}
+
+.photo {
+    width: 190px;
+    height: 250px;
+}
+
+.slider2 {
+    position: relative;
+}
+
+#next2 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    text-decoration: none;
+}
+
+#prev2 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    text-decoration: none;
+}
+
+.photo2 {
+    width: 190px;
+    height: 250px;
+}
+
+.row li {
+    list-style-type: none;
+    float: left;
+    margin-left: 10px;
+}
+
+.tdecu-ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.tdecu-ul2 {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.tdecu-ul2 .ig {
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 1s;
+}
+
+.tdecu-ul2 .ig:hover,
+.tdecu-ul2 .ig:active {
+            transform: scale(1.1);
+}
+
+.t-item img {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.t-item img:hover,
+.t-item img:active {
+        transform: scale(1.2);
+}
+
+.slider3 {
+    position: relative;
+}
+
+#next3 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    text-decoration: none;
+}
+
+#prev3 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    text-decoration: none;
+}
+
+.photo3 {
+    width: 190px;
+    height: 250px;
+}
+
+.slider4 {
+    position: relative;
+}
+
+#next4 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    text-decoration: none;
+}
+
+#prev4 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    text-decoration: none;
+}
+
+.photo4 {
+    width: 190px;
+    height: 250px;
+}
+
+.photo5 {
+    width: 190px;
+    height: 250px;
+}
+
+.slider5 {
+    position: relative;
+}
+
+#next5 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    text-decoration: none;
+}
+
+#prev5 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    text-decoration: none;
+}
+
+.items img {
+    width: 155px;
+    height: 200px;
+}
+
+.items li p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 150px;
+}
+
+.items li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.container-right {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    width: 330px;
+    border: 1px solid #a9c9c6;
+}
+
+.tab-nav li {
+    list-style-type: none;
+    float: left;
+    padding: 10px 20px;
+    padding-right: 1px;
+    margin-top: -14px;
+}
+
+.tab-nav li a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+}
+
+.list-utyle li {
+    list-style-type: none;
+    float: left;
+    margin-top: 10px;
+    padding-right: 20px;
+    border-bottom: 1px solid #a9c9c6;
+}
+
+.list-utyle li a {
+        text-decoration: none;
+}
+
+.pos {
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.t-item {
+    padding-left: 40px;
+}
+
+.t-item a {
+        float: left;
+}
+
+.t-item a img {
+            width: 50px;
+            height: 50px;
+}
+
+.title {
+    width: 200px;
+    margin: 0px;
+    padding-left: 100px;
+}
+
+.title a {
+        color: black;
+}
+
+.chapter-top {
+    padding-left: 100px;
+}
+
+.chapter-top a {
+        color: black;
+}
+
+.icon-hot {
+    height: 11px;
+    width: 28px;
+    background: url(../img/icon-hot.gif);
+}
+
+.items .image .icon {
+    position: absolute;
+}
+
+.items .image .icon-hot {
+    top: 10px;
+    right: 10px;
+}

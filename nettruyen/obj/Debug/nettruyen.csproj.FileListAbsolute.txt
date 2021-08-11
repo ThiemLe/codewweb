@@ -1,0 +1,125 @@
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\nettruyen.dll.config
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\nettruyen.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\nettruyen.pdb
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\csc.exe
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\csc.exe.config
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\csc.rsp
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\csi.exe
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\csi.exe.config
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\csi.rsp
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.Managed.Core.targets
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.AppContext.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Collections.Immutable.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Console.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.IO.Compression.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.IO.FileSystem.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.IO.Pipes.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Reflection.Metadata.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Security.AccessControl.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Security.Claims.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Security.Principal.Windows.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.ValueTuple.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Xml.XmlDocument.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Xml.XPath.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\vbc.exe
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\vbc.exe.config
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\vbc.rsp
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\VBCSCompiler.exe
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\roslyn\VBCSCompiler.exe.config
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\obj\Debug\nettruyen.csprojAssemblyReference.cache
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\obj\Debug\nettruyen.csproj.CoreCompileInputs.cache
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\obj\Debug\nettruyen.csproj.CopyComplete
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\obj\Debug\nettruyen.dll
+D:\win10\ung dung\lt wep\nettruyen\nettruyen\obj\Debug\nettruyen.pdb
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\nettruyen.dll.config
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\nettruyen.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\nettruyen.pdb
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\csc.exe
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\csc.exe.config
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\csc.rsp
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\csi.exe
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\csi.exe.config
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\csi.rsp
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.AppContext.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Collections.Immutable.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Console.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.IO.Compression.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.IO.FileSystem.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.IO.Pipes.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Reflection.Metadata.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Security.AccessControl.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Security.Claims.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.ValueTuple.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Xml.XPath.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\vbc.exe
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\vbc.exe.config
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\vbc.rsp
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\VBCSCompiler.exe
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\roslyn\VBCSCompiler.exe.config
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\obj\Debug\nettruyen.csprojAssemblyReference.cache
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\obj\Debug\nettruyen.csproj.CopyComplete
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\obj\Debug\nettruyen.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\obj\Debug\nettruyen.pdb
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\obj\Debug\nettruyen.csproj.CoreCompileInputs.cache
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\Microsoft.Web.Infrastructure.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.Helpers.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.Mvc.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.Razor.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.WebPages.Deployment.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.WebPages.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.WebPages.Razor.dll
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.Helpers.xml
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.Mvc.xml
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.Razor.xml
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.WebPages.xml
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.WebPages.Deployment.xml
+D:\Báo Cáo\nettruyen\nettruyen\nettruyen\bin\System.Web.WebPages.Razor.xml

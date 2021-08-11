@@ -1,0 +1,605 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1F8C17FD-4BD9-4749-8A20-ECC2B7A727E2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nettruyen</RootNamespace>
+    <AssemblyName>nettruyen</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\001.jpg" />
+    <Content Include="img\002.jpg" />
+    <Content Include="img\003.jpg" />
+    <Content Include="img\004.jpg" />
+    <Content Include="img\005.jpg" />
+    <Content Include="img\006.jpg" />
+    <Content Include="img\008.jpg" />
+    <Content Include="img\010.jpg" />
+    <Content Include="img\anh1.jpg" />
+    <Content Include="img\anh2.jpg" />
+    <Content Include="img\anh3.jpg" />
+    <Content Include="img\anh4.jpg" />
+    <Content Include="img\anh5.jpg" />
+    <Content Include="img\avt1.jpg" />
+    <Content Include="img\avt10.jpg" />
+    <Content Include="img\avt11.jpg" />
+    <Content Include="img\avt12.jpg" />
+    <Content Include="img\avt14.jpg" />
+    <Content Include="img\avt15.jpg" />
+    <Content Include="img\avt16.jpg" />
+    <Content Include="img\avt17.jpg" />
+    <Content Include="img\avt18.jpg" />
+    <Content Include="img\avt19.jpg" />
+    <Content Include="img\avt2.jpg" />
+    <Content Include="img\avt20.jpg" />
+    <Content Include="img\avt21.jpg" />
+    <Content Include="img\avt22.jpg" />
+    <Content Include="img\avt23.jpg" />
+    <Content Include="img\avt24.jpg" />
+    <Content Include="img\avt25.jpg" />
+    <Content Include="img\avt26.jpg" />
+    <Content Include="img\avt27.jpg" />
+    <Content Include="img\avt28.jpg" />
+    <Content Include="img\avt29.jpg" />
+    <Content Include="img\avt3.jpg" />
+    <Content Include="img\avt30.png" />
+    <Content Include="img\avt31.jpg" />
+    <Content Include="img\avt32.jpg" />
+    <Content Include="img\avt33.jpg" />
+    <Content Include="img\avt34.jpg" />
+    <Content Include="img\avt35.jpg" />
+    <Content Include="img\avt4.jpg" />
+    <Content Include="img\avt5.jpg" />
+    <Content Include="img\avt6.jpg" />
+    <Content Include="img\avt7.jpg" />
+    <Content Include="img\avt8.jpg" />
+    <Content Include="img\avt9.jpg" />
+    <Content Include="img\bg_header.jpg" />
+    <Content Include="img\bg_header_new_red.jpg" />
+    <Content Include="img\icon-home.png" />
+    <Content Include="img\icon-hot.gif" />
+    <Content Include="img\icon-notification.png" />
+    <Content Include="img\icon-search.png" />
+    <Content Include="img\icon-tb.png" />
+    <Content Include="img\iconup.png" />
+    <Content Include="img\logo-nettruyen.png" />
+    <Content Include="img\logo_48.png" />
+    <Content Include="img\next2.png" />
+    <Content Include="img\prev.png" />
+    <Content Include="img\star-off.png" />
+    <Content Include="img\star-on.png" />
+    <Content Include="index\dangki.aspx" />
+    <Content Include="index\dangnhap.aspx" />
+    <Content Include="index\doctruyen.aspx" />
+    <Content Include="index\gopy.aspx" />
+    <Content Include="index\Home.aspx" />
+    <Content Include="index\HOT.aspx" />
+    <Content Include="index\theloai.aspx" />
+    <Content Include="index\thongtin.aspx" />
+    <Content Include="NewFolder1\alo\images\ajax_loader.gif" />
+    <Content Include="NewFolder1\alo\images\area_link.gif" />
+    <Content Include="NewFolder1\alo\images\arrow.gif" />
+    <Content Include="NewFolder1\alo\images\arrow_left.gif" />
+    <Content Include="NewFolder1\alo\images\arrow_right.gif" />
+    <Content Include="NewFolder1\alo\images\bg_repx.gif" />
+    <Content Include="NewFolder1\alo\images\book_open.gif" />
+    <Content Include="NewFolder1\alo\images\btn_close.gif" />
+    <Content Include="NewFolder1\alo\images\btn_drop.gif" />
+    <Content Include="NewFolder1\alo\images\btn_maximize.gif" />
+    <Content Include="NewFolder1\alo\images\btn_minimize.gif" />
+    <Content Include="NewFolder1\alo\images\button_bg.gif" />
+    <Content Include="NewFolder1\alo\images\charts\bar.swf" />
+    <Content Include="NewFolder1\alo\images\charts\column.swf" />
+    <Content Include="NewFolder1\alo\images\charts\column3d.swf" />
+    <Content Include="NewFolder1\alo\images\charts\line.swf" />
+    <Content Include="NewFolder1\alo\images\charts\MSColumn3D.swf" />
+    <Content Include="NewFolder1\alo\images\charts\MSLine.swf" />
+    <Content Include="NewFolder1\alo\images\charts\pie3d.swf" />
+    <Content Include="NewFolder1\alo\images\charts\pipe.swf" />
+    <Content Include="NewFolder1\alo\images\charts\ScrollColumn2D.swf" />
+    <Content Include="NewFolder1\alo\images\close.gif" />
+    <Content Include="NewFolder1\alo\images\color_selecter.gif" />
+    <Content Include="NewFolder1\alo\images\confirm.gif" />
+    <Content Include="NewFolder1\alo\images\ecshop_logo.gif" />
+    <Content Include="NewFolder1\alo\images\empty.gif" />
+    <Content Include="NewFolder1\alo\images\filecheck.gif" />
+    <Content Include="NewFolder1\alo\images\icon_account.gif" />
+    <Content Include="NewFolder1\alo\images\icon_add.gif" />
+    <Content Include="NewFolder1\alo\images\icon_copy.gif" />
+    <Content Include="NewFolder1\alo\images\icon_docs.gif" />
+    <Content Include="NewFolder1\alo\images\icon_drop.gif" />
+    <Content Include="NewFolder1\alo\images\icon_edit.gif" />
+    <Content Include="NewFolder1\alo\images\icon_js.gif" />
+    <Content Include="NewFolder1\alo\images\icon_output.gif" />
+    <Content Include="NewFolder1\alo\images\icon_priv.gif" />
+    <Content Include="NewFolder1\alo\images\icon_search.gif" />
+    <Content Include="NewFolder1\alo\images\icon_send_bonus.gif" />
+    <Content Include="NewFolder1\alo\images\icon_title.gif" />
+    <Content Include="NewFolder1\alo\images\icon_trash.gif" />
+    <Content Include="NewFolder1\alo\images\icon_view.gif" />
+    <Content Include="NewFolder1\alo\images\information.gif" />
+    <Content Include="NewFolder1\alo\images\loader.gif" />
+    <Content Include="NewFolder1\alo\images\login.png" />
+    <Content Include="NewFolder1\alo\images\login_line.gif" />
+    <Content Include="NewFolder1\alo\images\menu_arrow.gif" />
+    <Content Include="NewFolder1\alo\images\menu_minus.gif" />
+    <Content Include="NewFolder1\alo\images\menu_plus.gif" />
+    <Content Include="NewFolder1\alo\images\no.gif" />
+    <Content Include="NewFolder1\alo\images\notice.gif" />
+    <Content Include="NewFolder1\alo\images\online.swf" />
+    <Content Include="NewFolder1\alo\images\online.wav" />
+    <Content Include="NewFolder1\alo\images\picflag.gif" />
+    <Content Include="NewFolder1\alo\images\picnoflag.gif" />
+    <Content Include="NewFolder1\alo\images\sort_asc.gif" />
+    <Content Include="NewFolder1\alo\images\sort_desc.gif" />
+    <Content Include="NewFolder1\alo\images\stepnum.gif" />
+    <Content Include="NewFolder1\alo\images\th_bg.gif" />
+    <Content Include="NewFolder1\alo\images\top_loader.gif" />
+    <Content Include="NewFolder1\alo\images\warning.gif" />
+    <Content Include="NewFolder1\alo\images\warning_small.gif" />
+    <Content Include="NewFolder1\alo\images\yes.gif" />
+    <Content Include="NewFolder1\alo\includes\cls_exchange.php" />
+    <Content Include="NewFolder1\alo\includes\cls_google_sitemap.php" />
+    <Content Include="NewFolder1\alo\includes\cls_phpzip.php" />
+    <Content Include="NewFolder1\alo\includes\cls_sql_dump.php" />
+    <Content Include="NewFolder1\alo\includes\inc_menu.php" />
+    <Content Include="NewFolder1\alo\includes\inc_priv.php" />
+    <Content Include="NewFolder1\alo\includes\init.php" />
+    <Content Include="NewFolder1\alo\includes\lib_goods.php" />
+    <Content Include="NewFolder1\alo\includes\lib_main.php" />
+    <Content Include="NewFolder1\alo\includes\lib_template.php" />
+    <Content Include="NewFolder1\alo\js\colorselector.js" />
+    <Content Include="NewFolder1\alo\js\colorselector_topic.js" />
+    <Content Include="NewFolder1\alo\js\common.js" />
+    <Content Include="NewFolder1\alo\js\listtable.js" />
+    <Content Include="NewFolder1\alo\js\md5.js" />
+    <Content Include="NewFolder1\alo\js\selectbox.js" />
+    <Content Include="NewFolder1\alo\js\selectzone.js" />
+    <Content Include="NewFolder1\alo\js\tab.js" />
+    <Content Include="NewFolder1\alo\js\todolist.js" />
+    <Content Include="NewFolder1\alo\js\topbar.js" />
+    <Content Include="NewFolder1\alo\js\validator.js" />
+    <Content Include="NewFolder1\alo\styles\general.css" />
+    <Content Include="NewFolder1\alo\styles\main.css" />
+    <Content Include="NewFolder1\alo\templates\about_us.htm" />
+    <Content Include="NewFolder1\alo\templates\account_info.htm" />
+    <Content Include="NewFolder1\alo\templates\account_list.htm" />
+    <Content Include="NewFolder1\alo\templates\admin_logs.htm" />
+    <Content Include="NewFolder1\alo\templates\adsense.htm" />
+    <Content Include="NewFolder1\alo\templates\ads_info.htm" />
+    <Content Include="NewFolder1\alo\templates\ads_js.htm" />
+    <Content Include="NewFolder1\alo\templates\ads_list.htm" />
+    <Content Include="NewFolder1\alo\templates\ad_position_info.htm" />
+    <Content Include="NewFolder1\alo\templates\ad_position_list.htm" />
+    <Content Include="NewFolder1\alo\templates\affiliate.htm" />
+    <Content Include="NewFolder1\alo\templates\affiliate_ck_list.htm" />
+    <Content Include="NewFolder1\alo\templates\affiliate_list.htm" />
+    <Content Include="NewFolder1\alo\templates\agency_info.htm" />
+    <Content Include="NewFolder1\alo\templates\agency_list.htm" />
+    <Content Include="NewFolder1\alo\templates\area_list.htm" />
+    <Content Include="NewFolder1\alo\templates\articlecat_info.htm" />
+    <Content Include="NewFolder1\alo\templates\articlecat_list.htm" />
+    <Content Include="NewFolder1\alo\templates\article_info.htm" />
+    <Content Include="NewFolder1\alo\templates\article_list.htm" />
+    <Content Include="NewFolder1\alo\templates\attention_list.htm" />
+    <Content Include="NewFolder1\alo\templates\attribute_info.htm" />
+    <Content Include="NewFolder1\alo\templates\attribute_list.htm" />
+    <Content Include="NewFolder1\alo\templates\auction_info.htm" />
+    <Content Include="NewFolder1\alo\templates\auction_list.htm" />
+    <Content Include="NewFolder1\alo\templates\auction_log.htm" />
+    <Content Include="NewFolder1\alo\templates\back_info.htm" />
+    <Content Include="NewFolder1\alo\templates\back_list.htm" />
+    <Content Include="NewFolder1\alo\templates\batch_card_confirm.htm" />
+    <Content Include="NewFolder1\alo\templates\batch_card_info.htm" />
+    <Content Include="NewFolder1\alo\templates\bonus_by_goods.htm" />
+    <Content Include="NewFolder1\alo\templates\bonus_by_print.htm" />
+    <Content Include="NewFolder1\alo\templates\bonus_by_user.htm" />
+    <Content Include="NewFolder1\alo\templates\bonus_list.htm" />
+    <Content Include="NewFolder1\alo\templates\bonus_type.htm" />
+    <Content Include="NewFolder1\alo\templates\bonus_type_info.htm" />
+    <Content Include="NewFolder1\alo\templates\booking_info.htm" />
+    <Content Include="NewFolder1\alo\templates\booking_list.htm" />
+    <Content Include="NewFolder1\alo\templates\brand_info.htm" />
+    <Content Include="NewFolder1\alo\templates\brand_list.htm" />
+    <Content Include="NewFolder1\alo\templates\brand_search.htm" />
+    <Content Include="NewFolder1\alo\templates\calculator.htm" />
+    <Content Include="NewFolder1\alo\templates\captcha_manage.htm" />
+    <Content Include="NewFolder1\alo\templates\card_info.htm" />
+    <Content Include="NewFolder1\alo\templates\card_list.htm" />
+    <Content Include="NewFolder1\alo\templates\category_info.htm" />
+    <Content Include="NewFolder1\alo\templates\category_list.htm" />
+    <Content Include="NewFolder1\alo\templates\category_move.htm" />
+    <Content Include="NewFolder1\alo\templates\comment_info.htm" />
+    <Content Include="NewFolder1\alo\templates\comment_list.htm" />
+    <Content Include="NewFolder1\alo\templates\convert_main.htm" />
+    <Content Include="NewFolder1\alo\templates\cron_edit.htm" />
+    <Content Include="NewFolder1\alo\templates\cron_list.htm" />
+    <Content Include="NewFolder1\alo\templates\db_backup.htm" />
+    <Content Include="NewFolder1\alo\templates\db_restore.htm" />
+    <Content Include="NewFolder1\alo\templates\delivery_info.htm" />
+    <Content Include="NewFolder1\alo\templates\delivery_list.htm" />
+    <Content Include="NewFolder1\alo\templates\dodolink_list.htm" />
+    <Content Include="NewFolder1\alo\templates\drag.htm" />
+    <Content Include="NewFolder1\alo\templates\ebao_list.htm" />
+    <Content Include="NewFolder1\alo\templates\ebao_select.htm" />
+    <Content Include="NewFolder1\alo\templates\email_list.htm" />
+    <Content Include="NewFolder1\alo\templates\exchange_goods_info.htm" />
+    <Content Include="NewFolder1\alo\templates\exchange_goods_list.htm" />
+    <Content Include="NewFolder1\alo\templates\favourable_info.htm" />
+    <Content Include="NewFolder1\alo\templates\favourable_list.htm" />
+    <Content Include="NewFolder1\alo\templates\filecheck.htm" />
+    <Content Include="NewFolder1\alo\templates\file_priv.html" />
+    <Content Include="NewFolder1\alo\templates\flashplay_add.htm" />
+    <Content Include="NewFolder1\alo\templates\flashplay_ccustom_edit.htm" />
+    <Content Include="NewFolder1\alo\templates\flashplay_custom.htm" />
+    <Content Include="NewFolder1\alo\templates\flashplay_custom_add.htm" />
+    <Content Include="NewFolder1\alo\templates\flashplay_list.htm" />
+    <Content Include="NewFolder1\alo\templates\flashplay_tab.htm" />
+    <Content Include="NewFolder1\alo\templates\flow_stats.htm" />
+    <Content Include="NewFolder1\alo\templates\gen_goods_script.htm" />
+    <Content Include="NewFolder1\alo\templates\get_pwd.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_auto.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_batch_add.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_batch_confirm.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_batch_edit.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_batch_select.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_export.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_info.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_list.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_search.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_show_image.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_trash.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_type.htm" />
+    <Content Include="NewFolder1\alo\templates\goods_type_info.htm" />
+    <Content Include="NewFolder1\alo\templates\group_buy_info.htm" />
+    <Content Include="NewFolder1\alo\templates\group_buy_list.htm" />
+    <Content Include="NewFolder1\alo\templates\guest_stats.htm" />
+    <Content Include="NewFolder1\alo\templates\index.htm" />
+    <Content Include="NewFolder1\alo\templates\integrates_check.htm" />
+    <Content Include="NewFolder1\alo\templates\integrates_list.htm" />
+    <Content Include="NewFolder1\alo\templates\integrates_modify.htm" />
+    <Content Include="NewFolder1\alo\templates\integrates_points.htm" />
+    <Content Include="NewFolder1\alo\templates\integrates_setup.htm" />
+    <Content Include="NewFolder1\alo\templates\integrates_sync.htm" />
+    <Content Include="NewFolder1\alo\templates\integrates_uc_import.htm" />
+    <Content Include="NewFolder1\alo\templates\integrate_sync.htm" />
+    <Content Include="NewFolder1\alo\templates\language_list.htm" />
+    <Content Include="NewFolder1\alo\templates\license.htm" />
+    <Content Include="NewFolder1\alo\templates\link_info.htm" />
+    <Content Include="NewFolder1\alo\templates\link_list.htm" />
+    <Content Include="NewFolder1\alo\templates\login.htm" />
+    <Content Include="NewFolder1\alo\templates\magazine_list.htm" />
+    <Content Include="NewFolder1\alo\templates\magazine_list_add.htm" />
+    <Content Include="NewFolder1\alo\templates\mail_template.htm" />
+    <Content Include="NewFolder1\alo\templates\menu.htm" />
+    <Content Include="NewFolder1\alo\templates\merge_order.htm" />
+    <Content Include="NewFolder1\alo\templates\message.htm" />
+    <Content Include="NewFolder1\alo\templates\message_info.htm" />
+    <Content Include="NewFolder1\alo\templates\message_list.htm" />
+    <Content Include="NewFolder1\alo\templates\message_view.htm" />
+    <Content Include="NewFolder1\alo\templates\msg_add.htm" />
+    <Content Include="NewFolder1\alo\templates\msg_info.htm" />
+    <Content Include="NewFolder1\alo\templates\msg_list.htm" />
+    <Content Include="NewFolder1\alo\templates\navigator.htm" />
+    <Content Include="NewFolder1\alo\templates\navigator_add.htm" />
+    <Content Include="NewFolder1\alo\templates\optimize.htm" />
+    <Content Include="NewFolder1\alo\templates\order_delivery_info.htm" />
+    <Content Include="NewFolder1\alo\templates\order_goods_info.htm" />
+    <Content Include="NewFolder1\alo\templates\order_info.htm" />
+    <Content Include="NewFolder1\alo\templates\order_list.htm" />
+    <Content Include="NewFolder1\alo\templates\order_operate.htm" />
+    <Content Include="NewFolder1\alo\templates\order_operate_info.htm" />
+    <Content Include="NewFolder1\alo\templates\order_query.htm" />
+    <Content Include="NewFolder1\alo\templates\order_refund.htm" />
+    <Content Include="NewFolder1\alo\templates\order_stats.htm" />
+    <Content Include="NewFolder1\alo\templates\order_step.htm" />
+    <Content Include="NewFolder1\alo\templates\order_surplus_list.htm" />
+    <Content Include="NewFolder1\alo\templates\order_templates.htm" />
+    <Content Include="NewFolder1\alo\templates\package_info.htm" />
+    <Content Include="NewFolder1\alo\templates\package_list.htm" />
+    <Content Include="NewFolder1\alo\templates\pack_info.htm" />
+    <Content Include="NewFolder1\alo\templates\pack_list.htm" />
+    <Content Include="NewFolder1\alo\templates\page.htm" />
+    <Content Include="NewFolder1\alo\templates\pagefooter.htm" />
+    <Content Include="NewFolder1\alo\templates\pageheader.htm" />
+    <Content Include="NewFolder1\alo\templates\payment_edit.htm" />
+    <Content Include="NewFolder1\alo\templates\payment_list.htm" />
+    <Content Include="NewFolder1\alo\templates\picture_batch.htm" />
+    <Content Include="NewFolder1\alo\templates\plugins.htm" />
+    <Content Include="NewFolder1\alo\templates\print.htm" />
+    <Content Include="NewFolder1\alo\templates\print_index.htm" />
+    <Content Include="NewFolder1\alo\templates\privilege_allot.htm" />
+    <Content Include="NewFolder1\alo\templates\privilege_info.htm" />
+    <Content Include="NewFolder1\alo\templates\privilege_list.htm" />
+    <Content Include="NewFolder1\alo\templates\product_info.htm" />
+    <Content Include="NewFolder1\alo\templates\reg_fields.htm" />
+    <Content Include="NewFolder1\alo\templates\reg_field_info.htm" />
+    <Content Include="NewFolder1\alo\templates\repay_info.htm" />
+    <Content Include="NewFolder1\alo\templates\replenish_info.htm" />
+    <Content Include="NewFolder1\alo\templates\replenish_list.htm" />
+    <Content Include="NewFolder1\alo\templates\report_pv.htm" />
+    <Content Include="NewFolder1\alo\templates\role_info.htm" />
+    <Content Include="NewFolder1\alo\templates\role_list.htm" />
+    <Content Include="NewFolder1\alo\templates\sale_general.htm" />
+    <Content Include="NewFolder1\alo\templates\sale_list.htm" />
+    <Content Include="NewFolder1\alo\templates\sale_order.htm" />
+    <Content Include="NewFolder1\alo\templates\searchengine_stats.htm" />
+    <Content Include="NewFolder1\alo\templates\search_log_list.htm" />
+    <Content Include="NewFolder1\alo\templates\setting_first.htm" />
+    <Content Include="NewFolder1\alo\templates\setting_second.htm" />
+    <Content Include="NewFolder1\alo\templates\setting_third.htm" />
+    <Content Include="NewFolder1\alo\templates\shipping_area_info.htm" />
+    <Content Include="NewFolder1\alo\templates\shipping_area_list.htm" />
+    <Content Include="NewFolder1\alo\templates\shipping_config.htm" />
+    <Content Include="NewFolder1\alo\templates\shipping_list.htm" />
+    <Content Include="NewFolder1\alo\templates\shipping_template.htm" />
+    <Content Include="NewFolder1\alo\templates\shophelp_article_list.htm" />
+    <Content Include="NewFolder1\alo\templates\shophelp_cat_list.htm" />
+    <Content Include="NewFolder1\alo\templates\shophelp_info.htm" />
+    <Content Include="NewFolder1\alo\templates\shopinfo_info.htm" />
+    <Content Include="NewFolder1\alo\templates\shopinfo_list.htm" />
+    <Content Include="NewFolder1\alo\templates\shop_config.htm" />
+    <Content Include="NewFolder1\alo\templates\shop_config_form.htm" />
+    <Content Include="NewFolder1\alo\templates\shop_config_mail_settings.htm" />
+    <Content Include="NewFolder1\alo\templates\sitemap.htm" />
+    <Content Include="NewFolder1\alo\templates\sms_charge_history.htm" />
+    <Content Include="NewFolder1\alo\templates\sms_charge_history_query_ui.htm" />
+    <Content Include="NewFolder1\alo\templates\sms_charge_ui.htm" />
+    <Content Include="NewFolder1\alo\templates\sms_my_info.htm" />
+    <Content Include="NewFolder1\alo\templates\sms_pages.htm" />
+    <Content Include="NewFolder1\alo\templates\sms_register_ui.htm" />
+    <Content Include="NewFolder1\alo\templates\sms_send_history.htm" />
+    <Content Include="NewFolder1\alo\templates\sms_send_history_query_ui.htm" />
+    <Content Include="NewFolder1\alo\templates\sms_send_ui.htm" />
+    <Content Include="NewFolder1\alo\templates\snatch_info.htm" />
+    <Content Include="NewFolder1\alo\templates\snatch_list.htm" />
+    <Content Include="NewFolder1\alo\templates\snatch_view.htm" />
+    <Content Include="NewFolder1\alo\templates\sql.htm" />
+    <Content Include="NewFolder1\alo\templates\sql_dump_msg.htm" />
+    <Content Include="NewFolder1\alo\templates\start.htm" />
+    <Content Include="NewFolder1\alo\templates\suppliers_info.htm" />
+    <Content Include="NewFolder1\alo\templates\suppliers_list.htm" />
+    <Content Include="NewFolder1\alo\templates\tag_edit.htm" />
+    <Content Include="NewFolder1\alo\templates\tag_manage.htm" />
+    <Content Include="NewFolder1\alo\templates\templates_backup.htm" />
+    <Content Include="NewFolder1\alo\templates\templates_list.htm" />
+    <Content Include="NewFolder1\alo\templates\template_library.htm" />
+    <Content Include="NewFolder1\alo\templates\template_setup.htm" />
+    <Content Include="NewFolder1\alo\templates\top.htm" />
+    <Content Include="NewFolder1\alo\templates\topic_edit.htm" />
+    <Content Include="NewFolder1\alo\templates\topic_list.htm" />
+    <Content Include="NewFolder1\alo\templates\users_list.htm" />
+    <Content Include="NewFolder1\alo\templates\users_order.htm" />
+    <Content Include="NewFolder1\alo\templates\user_account_check.htm" />
+    <Content Include="NewFolder1\alo\templates\user_account_info.htm" />
+    <Content Include="NewFolder1\alo\templates\user_account_list.htm" />
+    <Content Include="NewFolder1\alo\templates\user_account_manage.htm" />
+    <Content Include="NewFolder1\alo\templates\user_address_list.htm" />
+    <Content Include="NewFolder1\alo\templates\user_info.htm" />
+    <Content Include="NewFolder1\alo\templates\user_rank.htm" />
+    <Content Include="NewFolder1\alo\templates\user_rank_info.htm" />
+    <Content Include="NewFolder1\alo\templates\view_sendlist.htm" />
+    <Content Include="NewFolder1\alo\templates\virtual_card_change.htm" />
+    <Content Include="NewFolder1\alo\templates\visit_sold.htm" />
+    <Content Include="NewFolder1\alo\templates\vote_info.htm" />
+    <Content Include="NewFolder1\alo\templates\vote_list.htm" />
+    <Content Include="NewFolder1\alo\templates\vote_option.htm" />
+    <Content Include="NewFolder1\alo\templates\webcollect.htm" />
+    <Content Include="NewFolder1\alo\templates\wholesale_batch_info.htm" />
+    <Content Include="NewFolder1\alo\templates\wholesale_info.htm" />
+    <Content Include="NewFolder1\alo\templates\wholesale_list.htm" />
+    <Content Include="script\gopy.js" />
+    <Content Include="script\jquery-3.4.1.min.js" />
+    <Content Include="script\script.js" />
+    <Content Include="script\Scripthome.js" />
+    <Content Include="style\styledoctruyen.css" />
+    <Content Include="style\StyleHOT.css" />
+    <Content Include="style\theloaistyle.css" />
+    <Content Include="script\thongtin.js" />
+    <Content Include="style\dangkistyle.css" />
+    <Content Include="style\homestyle.css" />
+    <Content Include="style\styledangnhap.css" />
+    <Content Include="style\stylegopy1.css" />
+    <Content Include="style\stylemarter.css" />
+    <Content Include="style\stylethong tin.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="index\dangki.aspx.cs">
+      <DependentUpon>dangki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\dangki.aspx.designer.cs">
+      <DependentUpon>dangki.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index\dangnhap.aspx.cs">
+      <DependentUpon>dangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\dangnhap.aspx.designer.cs">
+      <DependentUpon>dangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index\doctruyen.aspx.cs">
+      <DependentUpon>doctruyen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\doctruyen.aspx.designer.cs">
+      <DependentUpon>doctruyen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index\gopy.aspx.cs">
+      <DependentUpon>gopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\gopy.aspx.designer.cs">
+      <DependentUpon>gopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index\home.Master.cs">
+      <DependentUpon>home.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\home.Master.designer.cs">
+      <DependentUpon>home.Master</DependentUpon>
+    </Compile>
+    <Compile Include="index\HOT.aspx.cs">
+      <DependentUpon>HOT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\HOT.aspx.designer.cs">
+      <DependentUpon>HOT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index\theloai.aspx.cs">
+      <DependentUpon>theloai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\theloai.aspx.designer.cs">
+      <DependentUpon>theloai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index\thongtin.aspx.cs">
+      <DependentUpon>thongtin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index\thongtin.aspx.designer.cs">
+      <DependentUpon>thongtin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index\home.Master" />
+    <Content Include="NewFolder1\ViewPage1.cshtml" />
+    <Content Include="NewFolder1\alo\images\Thumbs.db" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51013</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51013/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

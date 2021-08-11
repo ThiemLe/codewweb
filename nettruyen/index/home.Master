@@ -1,0 +1,99 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="home.master.cs" Inherits="nettruyen.index.home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../style/stylemarter.css" rel="stylesheet" />
+    <script src="../script/jquery-3.4.1.min.js"></script>
+    <script src="../script/Scripthome.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="header">
+		<div class="navbar-header">
+			<div class="nav">
+				<div class="navbar-logo">
+				<a class="logo" href="Home.aspx">
+					<img src="../img/logo-nettruyen.png" alt="">
+				</a>
+			</div>
+			<div class="search">
+			    <input type="text" class="searchinput" placeholder="Tìm truyện..." autocomplete="off">
+			    <div class="input-btn">
+				    <a href="#">
+					    <img src="../img/icon-search.png" alt="">
+				    </a>
+			    </div>
+		    </div>
+		    <div class="notification">
+		    	<a href="#">
+					    <img src="../img/icon-tb.png" alt="">
+				    </a>
+		    </div>
+		    <div class="nav-account">
+			    <ul class="account">
+				    <li class="login"><a href="dangnhap.aspx">Đăng nhập</a></li>
+				    <li class="register"><a href="dangki.aspx">Đăng kí</a></li>
+			    </ul>
+		     </div>
+			</div>
+			
+		</div>
+    <div class="menu">
+    	<div class="menu-ul">
+    		<ul class="nav-menu">
+				<li><a style="background-color: #f5f0ec;" href="Home.aspx"><img src="../img/icon-home.png" alt="home"></a></li>
+				<li> <a href="HOT.aspx">HOT</a></li>
+				<li><a href="#">THEO DÕI</a></li>
+				<li><a href="#">LỊCH SỬ</a></li>
+				<li><a href="theloai.aspx">THỂ LOẠI</a></li>
+				<li><a href="#">GROUP</a></li>
+				<li><a href="gopy.aspx">GÓP Ý</a></li>
+			</ul>
+    	</div>			
+		</div>
+	<div class="main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+     </div>
+	<div class="footer">
+	<div class="ft-center">
+		<div class="ft-left">
+			<div >
+				<a class="f-logo" href="#">
+					<img src="../img/logo-nettruyen.png" alt="">
+				</a>
+			</div>
+			<div class="page">
+				
+				<p>Copyright © 2019 NetTruyen</p>
+			</div>
+		</div>
+		<div class="ft-right">
+			<div class="link-footer">
+				<h4> Thể Loại</h4>
+				<ul>
+					<li><a href="#">Chuyển sinh</a></li>
+					<li><a href="#">Đam mỹ</a></li>
+					<li><a href="#">Manga</a></li>
+					<li><a href="#">Manhua</a></li>
+					<li><a href="#">Manhwa</a></li>
+					<li><a href="#">Ngôn Tình</a></li>
+					<li><a href="#">Romance</a></li>
+					<li><a href="#">Xuyên Không</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+		
+</div>
+       <a href="#" class ="upicon" style="display: inline;">
+			<img src="../img/iconup.png" alt="">
+		</a>
+</body>
+</html>
